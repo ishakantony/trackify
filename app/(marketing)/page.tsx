@@ -6,7 +6,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-between p-8 md:flex-row md:p-4 lg:p-0">
         <div>
           <h2 className="text-6xl">Master Planer</h2>
-          <p className="mt-4 max-w-xl text-teal-400">
+          <p className="mt-4 max-w-xl text-slate-500">
             Experience seamless organization with{" "}
             <span className="border-b-4">Trackify</span>! Master the art of
             planning and keep everything at your fingertips, accessible from
@@ -32,7 +32,7 @@ export default function Home() {
         />
         <div>
           <h2 className="text-6xl">Prioritize The Right Thing</h2>
-          <p className="mt-4 max-w-xl text-teal-400">
+          <p className="mt-4 max-w-xl text-slate-500">
             With <span className="border-b-4">Trackify</span>, empower your
             decision-making like never before. Prioritize effortlessly with all
             critical information visible and within reach, ensuring that every

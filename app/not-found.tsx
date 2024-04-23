@@ -9,7 +9,7 @@ export default function NotFound() {
         height={500}
         alt="resource not found"
       />
-      <p className="my-2 text-center text-teal-500">
+      <p className="my-2 text-center text-slate-500">
         Looks like we could not find what you are looking for!
       </p>
     </div>

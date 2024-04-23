@@ -10,7 +10,7 @@ export default function MarketingLayout({
 }>) {
   return (
     <>
-      <nav className="flex h-14 w-full items-center border-b-2 px-2">
+      <nav className="flex h-14 w-full items-center border-b-2 bg-white px-2">
         <div id="left-nav" className="w-24">
           <Link href="/">
             <Image
@@ -31,7 +31,7 @@ export default function MarketingLayout({
         </div>
       </nav>
       {children}
-      <footer className="mt-auto flex h-16 w-full flex-col items-center justify-center px-8 text-teal-800 md:flex-row">
+      <footer className="mt-auto flex h-16 w-full flex-col items-center justify-center px-8 text-slate-700 md:flex-row">
         <p className="flex items-center text-center">
           This app is under active development (during free time)
         </p>
