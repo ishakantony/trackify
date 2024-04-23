@@ -1,6 +1,6 @@
+import { TrackifyLogoFull } from "@/components/common/trackify-logo-full";
 import { Button } from "@/components/ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function MarketingLayout({
@@ -13,12 +13,7 @@ export default function MarketingLayout({
       <nav className="flex h-14 w-full items-center border-b-2 bg-white px-2">
         <div id="left-nav" className="w-24">
           <Link href="/">
-            <Image
-              src="/trackify.svg"
-              width={300}
-              height={100}
-              alt="Trackify"
-            />
+            <TrackifyLogoFull />
           </Link>
         </div>
         <div id="right-nav" className="ml-auto">
